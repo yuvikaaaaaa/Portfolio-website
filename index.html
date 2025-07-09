@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/095952e335.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Expertise</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Science Enthusiast</p>
+                <h1>Hi, I'm <span>Yuvika</span> Gupta from<br>Jaipur, Rajasthan,<br>India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------ABOUT------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/prof.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi! I'm Yuvika Gupta, a passionate Data Science enthusiast from Jaipur, Rajasthan. Currently pursuing my B.Tech in Mechatronics Engineering with specialization in Robotics and Automation from The LNM Institute of Information Technology(LNMIIT, Jaipur), I’ve found my calling at the intersection of Artificial Intelligence and Human-Centric Innovation.<br>
+
+I love building solutions that combine machine learning, deep learning, and NLP with real-world impact — from hate speech detection systems to document intelligence tools. I’ve actively participated in hackathons and ideathons, presenting concepts like AI-Mediated Consciousness Sharing and 360° security drones, driven by my vision for a tech-empowered, inclusive future.<br>          I am driven by an insatiable curiosity and a belief that technology, when fused with human insight, can redefine the boundaries of what's possible — not just to build smarter systems, but to create a future that's profoundly intelligent, ethically grounded, and deeply human-centric.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Education</p>
+                    <p class="tab-links" onclick="opentab('education')">Achievements</p>
+                    <p class="tab-links" onclick="opentab('position')">Positions of Responsibility</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages:</span><br>Python, C++, C, MySql, MATLAB</li>
+                        <li><span>Web development:</span><br>HTML, CSS, Javascript</li>
+                        <li><span>Machine Learning:</span><br>Scikit-learn, PCA, Grid Search, Model Evaluation</li>
+                        <li><span>Data Processing & Analysis:</span><br>Pandas, NumPy, SciPy, Seaborn, Matplotlib</li>
+                        <li><span>Version Control:</span><br>Git, GitHub</li>
+                        <li><span>Development Tools:</span><br>Anaconda, Conda, pip, Simulink, AutoCAD, Solidworks</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>B.tech in Mechatronics Engineering(ongoing)</span><br>- With specialization in Robotics and Automation from LNMIIT, Jaipur</li>
+                        <li><span>12th Grade: Science</span><br>- Brightlands Girls Sr. Sec. School</li>
+                        <li><span>10th Grade:</span><br>- Brightlands Girls Sr. Sec. School</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Codeforces:</span><br>- Rating 893</li>
+                        <li><span>Hackathon:</span><br>- Participated in MNIT Coding Marathon 2023</li>
+                        <li><span>Ideathon:</span><br>- Selected for Global Ideathon Taiwan</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="position">
+                    <ul>
+                        <li><span>The Counselling and Guidance Cell, LNMIIT:</span><br>Core Member, mentoring 100+ students</li>
+                        <li><span>Cipher, the Cybersecurity Club, LNMIIT:</span><br>Active Member exploring ethical hacking, digital forensics, and CTF challenges</li>
+                        <li><span>Fundoo, the Festival Organizing Club, LNMIIT:</span><br>Core Coordinator leading the creative and logistical execution of campus-wide cultural events</li>
+                        <li><span>ASME Student Chapter, LNMIIT:</span><br>Core Member contributing to project ideation and technical event planning</li>
+                        <li><span>EFX, LNMIIT:</span><br>Active Member driving innovation through collaborative tech projects, ideation sprints, and creative problem-solving challenges</li>
+                        
+                        
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------expertise------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Expertise & Offerings</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Graphic Designing</h2>
+                    <p><br>Graphic designing has always been something I genuinely enjoy. Over the years, I’ve worked on a variety of creative projects—posters, event banners, digital content—and each one has taught me something new. I love playing with colors, layouts, and ideas to turn a blank screen into something that grabs attention and tells a story. It’s more than just design for me—it’s a way to express, connect, and make things look and feel right.</p>
+                    <a href="https://www.interaction-design.org/literature/topics/graphic-design?srsltid=AfmBOopwB65GnsEtmOvEpf1-drsAM9xXTM17w9CTaQlnlQK7HSHQCYx1"><u>Learn More</u></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Programming and Problem Solving</h2>
+                    <p><br>It was more than just an academic subject for me—it was the gateway to my passion for technology. Through this course, I honed my ability to break down complex problems into structured, logical steps and translate them into clean, functional code. It taught me the essence of writing efficient algorithms, understanding edge cases, and thinking like a true problem solver.</p>
+                    <a href="https://www.simplilearn.com/tutorials/programming-tutorial/problem-solving-in-programming"><u>Learn More</u></a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Machine Learning</h2>
+                    <p><br>With a growing passion for artificial intelligence, I find Machine Learning particularly fascinating for its ability to transform raw data into intelligent insights. I’m driven by the idea of building models that learn, adapt, and make meaningful decisions — automating processes and solving real-world problems with precision and purpose.</p>
+                    <a href="https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-machine-learning"><u>Learn More</u></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------projects-------------------->
+     <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My projects</h1>
+        
+        <div class="work-list">
+            <div class="work">
+                <img src="images/pp1.jpeg">
+                <div class="layer">
+                    <h3><b>Medicine Recommendation System</b></h3>
+                    <p>Built an intelligent health platform using Python and Machine Learning to predict diseases based on user-input symptoms, enabling early diagnosis and personalized care.</p>
+                    <a href="https://github.com/yuvikaaaaaa/Medical-Recommendation-System"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/pp2.jpeg">
+                <div class="layer">
+                    <h3><b>Hate Speech Detector (Ongoing)</b></h3>
+                    <p>Developing an NLP-powered model to identify and classify online text as offensive or non-offensive, promoting safer digital spaces.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ---------------------contact--------------------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-square-envelope"></i> yuvikagupta674@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +91 9216746454</p>
+                <div class="social-icons">
+                    <a href="www.linkedin.com/in/yuvika-gupta-8b3891289"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/yuvikaaaaaa"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/__yuvikaaaaaa/"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="images/Yuvika_Gupta___.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Yuvika</p>
+    </div>
+ </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+
+        function openmenu() {
+    sidemeu.style.right = "0";
+    document.querySelector(".fa-bars").style.display = "none";
+}
+
+function closemenu() {
+    sidemeu.style.right = "-200px";
+    document.querySelector(".fa-bars").style.display = "block";
+}
+
+        
+    </script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbz3m1XBUbXx4pdtU6s0URZzv50k4tAbVTyS_NHWnax288TTtZs4K9efMk64CMphZxxC/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully!"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+    </body>
+</html>
